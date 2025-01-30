@@ -2,7 +2,9 @@
 import AccordionQuest from "../components/AccordionQuest";
 import TherapyServices from "../components/Services";
 import React from "react";
-
+import AppCaro from "@/components/carousel";
+import {  CarouselPlugin } from "@/components/carusel";
+import SliderComponent from "@/components/slider";
 export default function App() {
   return (
     <>
@@ -46,6 +48,11 @@ export default function App() {
         />
       </div>
       <TherapyServices/>
+
+
+          <AppCaro></AppCaro>
+        <CarouselPlugin/>
+        <SliderComponent/>
     </>
   );
 }
