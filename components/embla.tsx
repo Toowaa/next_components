@@ -155,6 +155,141 @@ const carrouseldata = [
       {
         id: 1,
         text: "Conflictos familiares",
+        iconImage: "/Services/family/familiares.webp",
+      },
+      {
+        id: 2,
+        text: "Problemas de comunicación",
+        iconImage: "/Services/family/problemascomu.webp",
+      },
+      {
+        id: 3,
+        text: "Problemas de divorcio o separación",
+        iconImage: "/Services/family/divorcio.webp",
+      },
+      {
+        id: 4,
+        text: "Relaciones tensas",
+        iconImage: "/Services/family/tensas.webp",
+      },
+      {
+        id: 5,
+        text: "Desacuerdos en la gestión del hogar",
+        iconImage: "/Services/family/desacuerdo.webp",
+      },
+    ],
+    tittlecards: "Beneficios de la terapia familiar",
+    cards: [
+      {
+        id: 1,
+        text: "Fomenta una comunicación más abierta y respetuosa.",
+        icon: "/Services/family/therapy/respeto.webp",
+      },
+      {
+        id: 2,
+        text: "Ayuda a resolver conflictos de manera constructiva.",
+        icon: "/Services/family/therapy/resolver.webp",
+      },
+      {
+        id: 3,
+        text: "Fortalece los lazos afectivos entre los miembros de la familia.",
+        icon: "/Services/family/therapy/lazos.webp",
+      },
+      {
+        id: 4,
+        text: "Promueve un ambiente emocionalmente seguro y saludable.",
+        icon: "/Services/family/therapy/ambiente.webp",
+      },
+      {
+        id: 5,
+        text: "Facilita la adaptación a cambios importantes en la vida familiar.",
+        icon: "/Services/family/therapy/adaptacion.webp",
+      },
+    ],
+    textfooter:
+      "¡Es el momento de dar el primer paso hacia un hogar más unido y saludable!",
+  },
+  {
+    tittle: "Terapia para adultos",
+    edad: "de 19 años a más",
+    motto:
+      "¿Sientes que las preocupaciones del día a día están afectando tu bienestar emocional?",
+    background: "/CarruselInferiorMain/cruzado.webp",
+    description:
+      "Estamos aquí para ayudarte a recuperar el equilibrio. A través de la terapia para adultos, encontrarás un espacio para comprenderte mejor, gestionar las situaciones difíciles y fortalecer tu bienestar emocional.¡Es el momento de dar el primer paso hacia una vida más equilibrada y plena!",
+    tittleIcon:
+      "¡Recupera tu bienestar emocional! A través de la terapia para adultos,te ayudamos a enfrentar desafíos.",
+    iconos: [
+      {
+        id: 1,
+        text: "Estrés",
+        iconImage: "/Services/adult/estres.webp",
+      },
+      {
+        id: 2,
+        text: "Desafíos laborales",
+        iconImage: "/Services/adult/laborales.webp",
+      },
+      {
+        id: 3,
+        text: "Dificultades emocionales",
+        iconImage: "/Services/adult/dificultades.webp",
+      },
+      {
+        id: 4,
+        text: "Proceso de duelo",
+        iconImage: "/Services/adult/duelo.webp",
+      },
+      {
+        id: 5,
+        text: "Crecimiento personal",
+        iconImage: "/Services/adult/personal.webp",
+      },
+    ],
+    tittlecards: "Beneficios de la terapia para adultos",
+    cards: [
+      {
+        id: 1,
+        text: "Aprenderás a manejar el estrés y la ansiedad para recuperar tu equilibrio emocional.",
+        icon: "/Services/adult/therapy/manejar.webp",
+      },
+      {
+        id: 2,
+        text: "Comprenderás y gestionarás tus emociones, tomando decisiones más conscientes.",
+        icon: "/Services/adult/therapy/comprender.webp",
+      },
+      {
+        id: 3,
+        text: "Fortalecerás tu confianza al trabajar en tus habilidades y superar límites.",
+        icon: "/Services/adult/therapy/fortalecer.webp",
+      },
+      {
+        id: 4,
+        text: "Te enseñaremos cómo enfrentar los desafíos de la vida diaria de manera saludable y resiliente.",
+        icon: "/Services/adult/therapy/enfrentar.webp",
+      },
+      {
+        id: 5,
+        text: "Te ayudará a gestionar conflictos emocionales y mejorar tus relaciones personales y laborales.",
+        icon: "/Services/adult/therapy/gestion.webp",
+      },
+    ],
+    textfooter:
+      "Estamos aquí para acompañarte y ayudarte a transformar tus retos en oportunidades de crecimiento personal.",
+  },
+  {
+    tittle: "Terapia de pareja",
+    edad: "Para parejas de toda edad",
+    motto: "¿Tu relación está en crisis? ¿Buscas fortalecer el vínculo?",
+    background: "/CarruselInferiorMain/abuela.webp",
+    description:
+      "Todas las parejas enfrentan desafíos y buscar ayuda es un paso hacia una relación más satisfactoria. En Contigo Voy, pueden iniciar una terapia de pareja online diseñada para cuidar su bienestar de forma accesible y práctica.",
+    tittleIcon:
+      "En Contigo Voy puedes encontrar un psicólogo de parejas online para abordar una gran variedad de temas.",
+    iconos: [
+      {
+        id: 1,
+        text: "Sexualidad",
         iconImage: "/Services/teen/emociones.webp",
       },
       {
@@ -164,185 +299,50 @@ const carrouseldata = [
       },
       {
         id: 3,
-        text: "Problemas de divorcio o separación",
+        text: "Celos",
         iconImage: "/Services/teen/autoestima.webp",
       },
       {
         id: 4,
-        text: "Relaciones tensas",
+        text: "Familia",
         iconImage: "/Services/teen/sociales.webp",
       },
       {
         id: 5,
-        text: "Desacuerdos en la gestión del hogar",
+        text: "Dependencia emocional",
         iconImage: "/Services/teen/vocacional.webp",
       },
     ],
-    tittlecards: "Beneficios de la terapia para adolescentes",
+    tittlecards: "Beneficios de la terapia de parejas",
     cards: [
       {
         id: 1,
-        text: "Ayuda a manejar la frustración y transformar emociones difíciles en acciones positivas.",
+        text: "Aprenderán a comunicarse y expresar sus emociones de manera clara y efectiva, fortaleciendo el entendimiento mutuo.",
         icon: "/Services/teen/therapy/frustraciones.webp",
       },
       {
         id: 2,
-        text: "Fomenta un equilibrio saludable entre sus responsabilidades y su bienestar emocional",
+        text: "Incrementará la satisfacción y el bienestar, no solo en la relación, sino también a nivel personal.",
         icon: "/Services/teen/therapy/equilibrio.webp",
       },
       {
         id: 3,
-        text: "Mejora las habilidades para comunicarse y relacionarse con los demás.",
+        text: "Desarrollarán una empatía más profunda para comprender y atender mejor las necesidades de su pareja.",
         icon: "/Services/teen/therapy/comunicacion.webp",
       },
       {
         id: 4,
-        text: "Les brinda herramientas para enfrentar decisiones importantes con seguridad.",
+        text: "Mejorarán su empatía, facilitando el respeto hacia sus diferencias y promoviendo la armonía.",
         icon: "/Services/teen/therapy/seguridad.webp",
       },
       {
         id: 5,
-        text: "Impulsa su autoestima,ayudándoles a construir una imagen positiva de sí mismos.",
+        text: "Construirán su mejor versión individual para crecer y avanzar juntos como pareja.",
         icon: "/Services/teen/therapy/construir.webp",
       },
     ],
     textfooter:
-      "Cada sesión es una oportunidad para que tu hijo explore,crezca y enfrente sus desafíos con seguridad y confianza.",
-  },
-  {
-    tittle: "Terapia para adultos",
-    edad: "de 19 años a más",
-    motto:
-      "¿Sientes que las preocupaciones del día a día están afectando tu bienestar emocional?",
-    background: "/CarruselInferiorMain/cruzado.webp",
-    description:
-      "Ayuda a tu hijo a sentirse escuchado y comprendido en esta etapa tan crucial de su desarrollo con nuestra terapia integral. Apoyamos a los adolescentes a manejar sus emociones, fortalecer su autoestima y desarrollar su habilidades sociales en un espacio seguro.",
-    tittleIcon:
-      "Prioriza su bienestar emocional. A través de la terapia para adolescentes, ayudamos a jóvenes a enfrentar desafíos.",
-    iconos: [
-      {
-        id: 1,
-        text: "Manejo de emociones",
-        iconImage: "/Services/teen/emociones.webp",
-      },
-      {
-        id: 2,
-        text: "Estrés académico",
-        iconImage: "/Services/teen/estres.webp",
-      },
-      {
-        id: 3,
-        text: "Fortalecimiento del autoestima",
-        iconImage: "/Services/teen/autoestima.webp",
-      },
-      {
-        id: 4,
-        text: "Habilidades sociales",
-        iconImage: "/Services/teen/sociales.webp",
-      },
-      {
-        id: 5,
-        text: "Orientación vocacional",
-        iconImage: "/Services/teen/vocacional.webp",
-      },
-    ],
-    tittlecards: "Beneficios de la terapia para adolescentes",
-    cards: [
-      {
-        id: 1,
-        text: "Ayuda a manejar la frustración y transformar emociones difíciles en acciones positivas.",
-        icon: "/Services/teen/therapy/frustraciones.webp",
-      },
-      {
-        id: 2,
-        text: "Fomenta un equilibrio saludable entre sus responsabilidades y su bienestar emocional",
-        icon: "/Services/teen/therapy/equilibrio.webp",
-      },
-      {
-        id: 3,
-        text: "Mejora las habilidades para comunicarse y relacionarse con los demás.",
-        icon: "/Services/teen/therapy/comunicacion.webp",
-      },
-      {
-        id: 4,
-        text: "Les brinda herramientas para enfrentar decisiones importantes con seguridad.",
-        icon: "/Services/teen/therapy/seguridad.webp",
-      },
-      {
-        id: 5,
-        text: "Impulsa su autoestima,ayudándoles a construir una imagen positiva de sí mismos.",
-        icon: "/Services/teen/therapy/construir.webp",
-      },
-    ],
-    textfooter:
-      "Cada sesión es una oportunidad para que tu hijo explore,crezca y enfrente sus desafíos con seguridad y confianza.",
-  },
-  {
-    tittle: "Terapia de pareja",
-    edad: "Para parejas de toda edad",
-    motto: "¿Tu relación está en crisis? ¿Buscas fortalecer el vínculo?",
-    background: "/CarruselInferiorMain/abuela.webp",
-    description:
-      "Ayuda a tu hijo a sentirse escuchado y comprendido en esta etapa tan crucial de su desarrollo con nuestra terapia integral. Apoyamos a los adolescentes a manejar sus emociones, fortalecer su autoestima y desarrollar su habilidades sociales en un espacio seguro.",
-    tittleIcon:
-      "Prioriza su bienestar emocional. A través de la terapia para adolescentes, ayudamos a jóvenes a enfrentar desafíos.",
-    iconos: [
-      {
-        id: 1,
-        text: "Manejo de emociones",
-        iconImage: "/Services/teen/emociones.webp",
-      },
-      {
-        id: 2,
-        text: "Estrés académico",
-        iconImage: "/Services/teen/estres.webp",
-      },
-      {
-        id: 3,
-        text: "Fortalecimiento del autoestima",
-        iconImage: "/Services/teen/autoestima.webp",
-      },
-      {
-        id: 4,
-        text: "Habilidades sociales",
-        iconImage: "/Services/teen/sociales.webp",
-      },
-      {
-        id: 5,
-        text: "Orientación vocacional",
-        iconImage: "/Services/teen/vocacional.webp",
-      },
-    ],
-    tittlecards: "Beneficios de la terapia para adolescentes",
-    cards: [
-      {
-        id: 1,
-        text: "Ayuda a manejar la frustración y transformar emociones difíciles en acciones positivas.",
-        icon: "/Services/teen/therapy/frustraciones.webp",
-      },
-      {
-        id: 2,
-        text: "Fomenta un equilibrio saludable entre sus responsabilidades y su bienestar emocional",
-        icon: "/Services/teen/therapy/equilibrio.webp",
-      },
-      {
-        id: 3,
-        text: "Mejora las habilidades para comunicarse y relacionarse con los demás.",
-        icon: "/Services/teen/therapy/comunicacion.webp",
-      },
-      {
-        id: 4,
-        text: "Les brinda herramientas para enfrentar decisiones importantes con seguridad.",
-        icon: "/Services/teen/therapy/seguridad.webp",
-      },
-      {
-        id: 5,
-        text: "Impulsa su autoestima,ayudándoles a construir una imagen positiva de sí mismos.",
-        icon: "/Services/teen/therapy/construir.webp",
-      },
-    ],
-    textfooter:
-      "Cada sesión es una oportunidad para que tu hijo explore,crezca y enfrente sus desafíos con seguridad y confianza.",
+      "¿Listos para fortalecer su relación y crecer juntos?",
   },
 ];
 
