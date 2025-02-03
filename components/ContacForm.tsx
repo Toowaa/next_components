@@ -17,6 +17,7 @@ export default function App() {
         setAction(`submit ${JSON.stringify(data)}`);
       }}
     >
+      
       <Input
         isRequired
         errorMessage="Por favor ingrese un nombre válido"

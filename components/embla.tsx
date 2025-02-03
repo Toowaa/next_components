@@ -341,8 +341,7 @@ const carrouseldata = [
         icon: "/Services/couple/therapy/avanza.webp",
       },
     ],
-    textfooter:
-      "¿Listos para fortalecer su relación y crecer juntos?",
+    textfooter: "¿Listos para fortalecer su relación y crecer juntos?",
   },
 ];
 
@@ -383,7 +382,6 @@ export function EmblaCarousel() {
                 {item.description}
               </div>
             </div>
-
             <div className="pt-24 flex justify-center">
               <div className="w-[937px] h-[74px] font-lexend font-bold text-[24px] leading-[33px] text-center">
                 {item.tittleIcon}
@@ -415,8 +413,6 @@ export function EmblaCarousel() {
                     </div>
                   ))}
                 </div>
-
-                {/* Segunda fila - 2 iconos */}
                 <div className="flex flex-col md:flex-row gap-y-12 md:gap-y-0 md:gap-x-[229px]">
                   {item.iconos?.slice(3, 5).map((icono) => (
                     <div
@@ -447,10 +443,8 @@ export function EmblaCarousel() {
                 {item.tittlecards}
               </div>
             </div>
-
             <div className="flex justify-center py-8 px-4 md:px-8">
               <div className="flex flex-col items-center gap-y-12">
-                {/* Primera fila - 3 iconos */}
                 <div className="flex flex-col md:flex-row gap-y-8 md:gap-x-8">
                   {item.cards?.slice(0, 3).map((card) => (
                     <div
@@ -460,7 +454,6 @@ export function EmblaCarousel() {
                       <div className="rounded-3xl p-1 bg-[#634AE2]">
                         <div className="rounded-3xl bg-[#634AE2] p-4">
                           <div className="w-full md:w-[360px] h-auto md:h-[236px] flex flex-col bg-[#634AE2] rounded-lg p-4">
-                            {/* Contenedor de la imagen en la parte superior */}
                             <div className="flex justify-center items-center">
                               <img
                                 src={card.icon}
@@ -468,8 +461,6 @@ export function EmblaCarousel() {
                                 className="w-[140px] md:w-[183.27px] h-[68px] md:h-[88px] object-contain"
                               />
                             </div>
-
-                            {/* Texto en la parte inferior */}
                             <div className="flex-grow flex items-center justify-center px-4">
                               <p className="text-center text-[14px] md:text-[16px] text-white font-lexend font-semibold leading-[20px] md:leading-[24px] w-full">
                                 {card.text}
@@ -481,8 +472,6 @@ export function EmblaCarousel() {
                     </div>
                   ))}
                 </div>
-
-                {/* Segunda fila - 2 iconos */}
                 <div className="flex flex-col md:flex-row gap-y-8 md:gap-x-8">
                   {item.cards?.slice(3, 5).map((card) => (
                     <div
@@ -492,7 +481,6 @@ export function EmblaCarousel() {
                       <div className="rounded-3xl p-1 bg-[#634AE2]">
                         <div className="rounded-3xl bg-[#634AE2] p-4">
                           <div className="w-full md:w-[360px] h-auto md:h-[236px] flex flex-col bg-[#634AE2] rounded-lg p-4">
-                            {/* Contenedor de la imagen en la parte superior */}
                             <div className="flex justify-center items-center">
                               <img
                                 src={card.icon}
@@ -500,8 +488,6 @@ export function EmblaCarousel() {
                                 className="w-[140px] md:w-[183.27px] h-[68px] md:h-[88px] object-contain"
                               />
                             </div>
-
-                            {/* Texto en la parte inferior */}
                             <div className="flex-grow flex items-center justify-center px-4">
                               <p className="text-center text-[14px] md:text-[16px] text-white font-lexend font-semibold leading-[20px] md:leading-[24px] w-full">
                                 {card.text}
@@ -518,12 +504,10 @@ export function EmblaCarousel() {
             <div className="pt-24">
               <div className="h-36 bg-[#DEDEFF] flex items-center justify-center px-4 sm:px-8">
                 <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-[1100px] space-y-4 md:space-y-0">
-                  {/* Texto del footer */}
+                  {/* Texto del footer PRUEBITA */}
                   <p className="text-center md:text-left max-w-[652px]">
                     {item.textfooter}
                   </p>
-
-                  {/* Botón con las medidas específicas */}
                   <button className="w-full md:w-[359px] h-[70px] bg-[#634AE2] rounded-[34px] text-white font-lexend font-normal text-[18px] md:text-[24px] leading-[33px] text-center">
                     Reserva tu cita gratuita
                   </button>
