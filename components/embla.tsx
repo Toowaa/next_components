@@ -509,7 +509,7 @@ export function EmblaCarousel() {
                     {item.textfooter}
                   </p>
                   <button className="w-full md:w-[359px] h-[70px] bg-[#634AE2] rounded-[34px] text-white font-lexend font-normal text-[18px] md:text-[24px] leading-[33px] text-center">
-                    Reserva tu cita gratuita
+                    Reserva tu cita gratuita y mas
                   </button>
                 </div>
               </div>
