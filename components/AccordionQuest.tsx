@@ -2,7 +2,7 @@
 
 import { Accordion, AccordionItem } from "@nextui-org/react";
 import { QuestionInterface } from "./interface";
-const AnchorIcon = (props: React.SVGProps<SVGSVGElement>) => {
+const AnchorIcon = () => {
     return (
       <svg
         aria-hidden="true"

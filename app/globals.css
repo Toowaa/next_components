@@ -19,6 +19,13 @@ body {
   min-width: 0;
 }
 
+.custom-splide .splide__pagination {
+  right: 20px; /* Position on right */
+  top: 50%; 
+  transform: translateY(-50%); /* Vertically center */
+  position: absolute;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
